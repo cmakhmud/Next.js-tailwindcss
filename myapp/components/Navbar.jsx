@@ -61,7 +61,7 @@ export default function Navbar() {
     return (
         <div style={{backgroundColor:`${navBg}`}}   className={shadow?'fixed w-full h-20 z-[100] shadow-xl px-4':'fixed w-full h-20 z-[100] px-4'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-                <Image src={Logo} alt="/" width='125' height='50' />
+                <Image src={Logo} alt="/" width='250' height='250' />
                 <div>
                     <ul style={{color:`${linkColor}`}} className='hidden md:flex'>
                         <Link href="/">

@@ -2,7 +2,7 @@ import React , {useEffect, useState} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {useRouter} from 'next/router'
-import Logo from '../public/assets/navLogo.png';
+import Logo from '../public/assets/White Background.png';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import {BsFillPersonLinesFill } from 'react-icons/bs'

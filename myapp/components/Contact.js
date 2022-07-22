@@ -1,9 +1,11 @@
 import React from 'react'
 import Link from 'next/link';
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
+import { FaLinkedinIn, FaGithub , FaDesktop} from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai';
-import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
+import {RiArrowDropRightLine } from 'react-icons/ri'
+import {BsTelephoneInbound , BsWhatsapp} from 'react-icons/bs'
 export default function Contact() {
     return (
         <div id='contact' className='w-full lg:h-screen'>
@@ -44,32 +46,17 @@ export default function Contact() {
 
                     </div>
                     <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
-                        <div className='p-4'>
-                            <form>
-                                <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
-                                    <div className='flex flex-col'>
-                                        <label className='uppercase text-sm py-2'>Ad</label>
-                                        <input className='border-2 rounded-lg p-3 flex border-gray-300' type='text' />
-                                    </div>
-                                    <div className='flex flex-col'>
-                                        <label className='uppercase text-sm py-2'>Telefon</label>
-                                        <input className='border-2 rounded-lg p-3 flex border-gray-300' type='text' />
-                                    </div>
-                                </div>
-                                <div className='flex flex-col py-2'>
-                                    <label className='uppercase py-2 text-sm'>Email</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type='Email' />
-                                </div>
-                                <div className='flex flex-col py-2'>
-                                    <label className='uppercase py-2 text-sm'>Şİrkətİnİzİn adı</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type='text' />
-                                </div>
-                                <div className='flex flex-col py-2'>
-                                    <label className='uppercase py-2 text-sm'>Şİrkətİnİzİn adı</label>
-                                    <textarea className='border-2 rounded-lg p-3 flex border-gray-300' rows={10} type='text' />
-                                </div>
-                                <button className='w-full p-4 text-gray-100 mt-4'>Göndər</button>
-                            </form>
+                        <div className='p-6 flex flex-col justify-between h-[700px] shadow-xl rounded-xl hover:scale-105 ease-in duration-300 '>
+                            <div className='flex flex-col justify-around items-center rounded-xl bg-[#27272E] h-[300px] '>
+                                <h2 className='text-[white]'>Telefon</h2>
+                                <h4 className='text-[#999FAE]'>Telefonumuz hər gün sizin zənginizə və suallarınıza açıqdır</h4>
+                                <h1 className='text-[#FAB8C4]'>077 570 21 36</h1>
+                            </div>
+                            <div className='flex flex-col justify-around items-center rounded-xl bg-[#27272E] h-[300px] '>
+                                <h2 className='text-[white]'>Email</h2>
+                                <h4 className='text-[#999FAE]'>Bizə email yazmaqdan çəkinməyin</h4>
+                                <h1 className='text-[#FAB8C4]'>infobeta@inbox.ru</h1>
+                            </div>
                         </div>
                     </div>
                 </div>

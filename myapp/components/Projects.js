@@ -9,31 +9,20 @@ export default function Projects() {
     <div id='projects' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tracking-widest uppercase text-[#5651e1]'>
-                Komanda Üzvlərİmİzİn İştİrak etdİyİ Layİhələr
+                Komanda Üzvlərİmİzİn İştİrak etdİyİ Layİhələr və hazır həllər
             </p>
             <div className='grid md:grid-cols-2 gap-8'>
 
                 <ProjectsItem
                     title='Proporty finder'
                     backGroundImg = {Proporty}
-                    projectURL = '/property'
+                    projectURL = '/pinkkpro'
                 />
                  <ProjectsItem
                     title='Erp12 Restoran Proqramı'
                     backGroundImg = {erp12}
                     projectURL = '/erp12'
                 />
-                 <ProjectsItem
-                    title='Netflix'
-                    backGroundImg = {NetflixImg}
-                    projectURL = '/netflix'
-                />
-                 <ProjectsItem
-                    title='Proporty finder'
-                    backGroundImg = {TwitchImg}
-                    projectURL = '/twitch'
-                />
-
             </div>
         </div>
     </div>

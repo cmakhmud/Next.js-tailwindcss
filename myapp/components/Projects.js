@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectsItem from './ProjectsItem'
-import Proporty from '../public/assets/property.jpg'
+import Proporty from '../public/assets/pikkpro.png'
 import CryptoImg from '../public/assets/crypto.jpg'
 import NetflixImg from '../public/assets/netflix.jpg'
 import TwitchImg from '../public/assets/twitch.jpg'

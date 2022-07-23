@@ -16,7 +16,7 @@ export default function Projects() {
                 <ProjectsItem
                     title='Proporty finder'
                     backGroundImg = {Proporty}
-                    projectURL = '/pinkkpro'
+                    projectURL = '/pikkpro'
                 />
                  <ProjectsItem
                     title='Erp12 Restoran Proqramı'

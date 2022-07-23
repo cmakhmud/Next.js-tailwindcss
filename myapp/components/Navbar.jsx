@@ -32,7 +32,7 @@ export default function Navbar() {
 
     useEffect(()=>{
         if(
-            router.asPath === '/property'|| 
+            router.asPath === '/pikkpro'|| 
             router.asPath === '/erp12'|| 
             router.asPath === '/netflix'|| 
             router.asPath === '/twitch' ||

@@ -2,7 +2,7 @@ import React , {useEffect, useState} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {useRouter} from 'next/router'
-import Logo from '../public/assets/White Background.png';
+import Logo from '../public/assets/logo.png';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import {BsFillPersonLinesFill } from 'react-icons/bs'
@@ -33,7 +33,7 @@ export default function Navbar() {
     useEffect(()=>{
         if(
             router.asPath === '/property'|| 
-            router.asPath === '/crypto'|| 
+            router.asPath === '/erp12'|| 
             router.asPath === '/netflix'|| 
             router.asPath === '/twitch' ||
             router.asPath === '/servicesDetailed'

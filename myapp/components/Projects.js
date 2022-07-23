@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectsItem from './ProjectsItem'
 import Proporty from '../public/assets/pikkpro.png'
-import CryptoImg from '../public/assets/crypto.jpg'
+import erp12 from '../public/assets/erp12.webp'
 import NetflixImg from '../public/assets/netflix.jpg'
 import TwitchImg from '../public/assets/twitch.jpg'
 export default function Projects() {
@@ -19,9 +19,9 @@ export default function Projects() {
                     projectURL = '/property'
                 />
                  <ProjectsItem
-                    title='Crypto App'
-                    backGroundImg = {CryptoImg}
-                    projectURL = '/crypto'
+                    title='Erp12 Restoran Proqramı'
+                    backGroundImg = {erp12}
+                    projectURL = '/erp12'
                 />
                  <ProjectsItem
                     title='Netflix'

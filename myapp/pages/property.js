@@ -1,5 +1,5 @@
 import React from 'react'
-import propertyImg from '../public/assets/property.jpg'
+import propertyImg from '../public/assets/bg.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import { RiRadioButtonFill } from 'react-icons/ri'
@@ -11,7 +11,7 @@ export default function proporty() {
         <Image
           className='absolute z-1'
           layout='fill'
-          objectFit='cover'
+          objectFit='contain'
           src={propertyImg}
           alt='/'
         />

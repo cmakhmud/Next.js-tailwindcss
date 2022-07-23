@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import propertyImg from '../public/assets/White Background.png'
+import propertyImg from '../public/assets/bg.png'
 import {FaDesktop , FaSearchengin} from 'react-icons/fa'
 import {FcSmartphoneTablet , FcAdvertising} from 'react-icons/fc'
 import {BiTransfer} from 'react-icons/bi'
